@@ -1,0 +1,197 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap');
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     background-color: black;
+ }
+ a{
+     text-decoration: none;
+ }
+ 
+ .hero{
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     position:relative;
+    
+ }
+ 
+ nav{
+     position: sticky;
+     align-items: center;
+     justify-content: space-between;
+     padding: 30px 100px;
+     background: black;
+     top: 0;
+     width: 100%;
+ }
+ .logo{
+     max-height: 60px;
+ }
+ .pic{
+     max-height: 250px; 
+ }
+ .column{
+     flex-direction: column;
+     align-items: left;
+     justify-content: justify;
+ }
+ .row:after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .flex{
+     display: flex;
+ }
+ 
+ nav ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 10px 20px;
+ }
+ nav ul li a{
+     color: #fff;
+     position: relative;
+     padding: 5px 0;
+ }
+ nav ul li a:hover{
+     color: #fd4766;
+ }
+ nav ul li a:after{
+     content: "";
+     position: absolute;
+     left: 0;
+     width: 0;
+     height: 3px;
+     background: #fd4766;
+     transition: .3s;
+     bottom: 0;
+ }
+ nav ul li a:hover:after{
+     width: 100%;
+ }
+ .home{
+     position: relative;
+     left: 8%;
+     top: 35%;
+     margin-top: 30px;
+     
+ }
+ .home .title{
+     color: #1f1f25;
+     font-size: 15px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     display: inline-block;
+     margin-bottom: 20px;
+     background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .home h1{
+     color: white;
+     font-size: 75px;
+     font-weight: 900;
+     line-height: 90px;
+     text-transform: inherit;
+     width: 70%;
+ }
+ 
+ .home h1 span{
+     color: #fd4766;
+ }
+ .home p{
+     width: 55%;
+     color: #757575;
+     margin-top: 25px;
+     margin-bottom: 30px;
+    
+ }
+ 
+ .columnm {
+     float: left;
+     width: 50%;
+   }
+   
+ .rowm:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+ 
+ .aboutchinmay{
+     position: relative;
+     align-items: center;
+ }
+
+ .skills{
+     position: inherit;
+     align-items: center;
+     text-align: center;
+    
+ }
+ 
+.skills h1{
+    margin-left: 80px;
+}
+ 
+ .aboutchinmay h2{
+     font-size: 75px;
+     font-weight: 900;
+     line-height: 90px;
+     text-transform: inherit;
+     width: 100%;
+     color: white;
+     align-items: center;
+     text-align: center;
+     
+ }
+ 
+ .aboutchinmay p{
+     color: white;
+     text-align: center;
+ }
+ 
+ .progress>progress{
+     width: 50%;
+ }
+ 
+ .contact{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-left:30px;
+}
+
+.contact h1{
+    color: white;
+    margin-left: 120px;
+}
+ 
+#username, #email, #message{
+    width: 50%;
+}
+
+#message{
+    height: 60%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
